@@ -1,0 +1,81 @@
+.nav-container{
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  background-image: url(./images/Rectangle18.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero > h1{
+  width: 60%;
+  margin-top: 5em;
+}
+
+.p1{
+  width: 40%;
+  margin-top: 2em;
+}
+
+.hero > a{
+  margin-top: 2em;
+  margin-bottom: 8em;
+}
+
+.about > img {
+  width: 35%;
+}
+
+.about article{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 35%;
+}
+
+#video{
+  width: 60%;
+}
+
+.uses{
+  width: 90%;
+  margin: auto;
+}
+
+#use1{
+  width: 50%;
+  background-image: url(./images/Rectangle4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#use2{
+  width: 30%;
+  background-image: url(./images/health.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner{
+  /*background: linear-gradient(#414040 100%, #BDBBBB 43%);*/
+  background: linear-gradient(rgba(189,187,187, 0.4), rgba(65,64,64, 1));
+}
+
+.cases > p{
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  
+}
